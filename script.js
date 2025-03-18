@@ -8,16 +8,13 @@ class Person {
 		return this.name;
 	}
 	get age(){
-		this.age=age;
+		return this.age=age;
 	}
-	set age(newage)
-	{
-		this.age=newage;
-	}
+	
 }
 
 class Student extends Person {
-	constructor(name,age,){
+	constructor(name,age){
 		super(name,age);
 	}
 	study(){
